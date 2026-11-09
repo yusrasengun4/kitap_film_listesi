@@ -1,0 +1,46 @@
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+  min-height: 100vh;
+}
+
+.navbar-brand {
+  letter-spacing: 0.5px;
+}
+
+.navbar .nav-link {
+  transition: color 0.2s ease;
+}
+
+.card {
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+}
+
+.card-title {
+  overflow-wrap: anywhere;
+}
+
+.form-control,
+.form-select,
+.btn {
+  border-radius: 8px;
+}
+
+.progress {
+  border-radius: 10px;
+  background-color: #e9ecef;
+}
+
+.progress-bar {
+  transition: width 0.3s ease;
+}
+
+.star-button {
+  line-height: 1;
+  transition: transform 0.1s;
+}
+
+.star-button:hover {
+  transform: scale(1.15);
+}
